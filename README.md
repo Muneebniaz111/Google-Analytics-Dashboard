@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 📊 Google Analytics Dashboard (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **modern analytics dashboard UI** built with **React.js**.
+It provides a clean interface for visualizing key website performance metrics such as **visits, bounce rate, session duration, traffic sources, devices, demographics, and social media insights**.
 
-## Available Scripts
+Currently, the data is **static (mock JSON/state)** but the project can be easily extended to fetch data from a **backend API** or directly from the **Google Analytics API**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Website Performance Overview**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * Total Visits & Unique Visitors
+  * Bounce Rate & Conversion Rate
+  * Avg. Session Duration & Pages per Session
 
-### `npm test`
+* **Data Visualizations**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * Overview Graph (Page Views, Sessions, Users over time)
+  * Traffic Sources (Google, Direct, Bing, etc.)
+  * Device Breakdown (Desktop, Mobile, Tablet)
+  * Social Media Insights (Facebook, Twitter, LinkedIn, etc.)
+  * Demographics (Age, Gender, Location)
+  * New vs Returning Visitors
 
-### `npm run build`
+* **UI Components**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * Sidebar Navigation (Dashboard, Traffic Analysis, Reports, Settings)
+  * Metric Cards with highlights
+  * Interactive charts using **Recharts / Chart.js**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Tech Stack
 
-### `npm run eject`
+* **React.js** → Frontend framework
+* **JavaScript (ES6+)** → Application logic
+* **HTML5 & CSS3** → Structure & styling
+* **Recharts / Chart.js** → Data visualization
+* **Static JSON / State Data** → Mock analytics data (no backend yet)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
+src/
+├── assets/        # Icons, images, logos
+├── components/    # Reusable UI components (Cards, Charts, Sidebar, etc.)
+├── pages/         # Dashboard and additional views
+├── App.js         # Root app component
+├── index.js       # Application entry point
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start development server
+npm start
